@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+</head>
+<body>
+   
+    <h1>User {{users.id}} </h1>
+    <div>
+    <table>
+        <thead>
+            <td>Id</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Email</td>
+            <td>created at</td>
+            <td>updated_at</td>
+        </thead>
+        <tbody>
+            <td> {{users.id}}</td>
+            <td>{{users.first_name}}</td>
+            <td>{{users.last_name}}</td>
+            <td> {{users.email}}</td>
+            <td> {{users.created_at}}</td>
+            <td> {{users.updated_at}}</td>
+        </tbody>
+    </div>
+    <div><a href="/">Return</a></div>
+    
+</body>
+</html>
